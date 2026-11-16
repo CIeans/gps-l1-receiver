@@ -28,7 +28,7 @@ Each step is explained in simplified detail in the comment blocks inside the hea
 ## Results
 <img width="892" height="604" alt="image" src="https://github.com/user-attachments/assets/a17cdbc2-86d3-4577-9b9c-b248fc1b0e17" />
 
-<img width="333" height="127" alt="image" src="https://github.com/user-attachments/assets/c597d819-2fee-4904-8b56-fc02284bd664" />
+<img width="347" height="124" alt="image" src="https://github.com/user-attachments/assets/d2b9551d-3b75-4477-b450-91bc1f91e8d8" />
 
 ## How to run
 When running through MATLAB, run radar.m with cacode.m in the workspace.
@@ -44,5 +44,5 @@ Tracking (PRN 1 first), with navigation data and a position fix.
 
 ## References
 - The recording was acquired from GNSS-SDR's SourceForge page, at https://sourceforge.net/projects/gnss-sdr/files/data/.
-- There are two in-code labeled input-validation checks, suggested by MATLAB’s AI assistant, kept as good practice of healthy code. The receiver works the exact same without them.
+- There is a single in-code labeled input-validation check in cacode.m, suggested by MATLAB’s AI assistant, kept as good practice of healthy code. The receiver works the exact same without it.
 - IS-GPS-200, from https://navcen.uscg.gov.
