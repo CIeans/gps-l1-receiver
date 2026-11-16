@@ -21,7 +21,7 @@ Contains the IS-GPS-200 PRN table for prn_taps.
 - In the Doppler shift guessing loop, Euler's formula is utilized on our incoming complex sample to leave 4000 samples with no spin.
 - FFT circular correlation, as implemented, saves processing power by testing all 4000 code shifts at once.
 - The PRN results are stored, and a graph is displayed showing the peak ratios under each PRN, with anything above our set threshold of 2.5 being a detected satellite. 
-- The best Doppler guess, code phase, and ratio are saved. While the graph only displays the ratios, the Doppler and code phase are printed on their own in a table.
+- The best Doppler guess, code phase, and ratio are saved. While the graph only displays the ratios; the Doppler, code phase, and ratios are individually printed in a table.
 
 Each step is explained in simplified detail in the comment blocks inside the heavily commented cacode.m and radar.m.
 
