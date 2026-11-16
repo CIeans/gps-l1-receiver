@@ -97,6 +97,5 @@ xlabel('PRN'); ylabel('Peak ratio');
 title('Acquisition: which satellites are visible');
 
 % ! ! TABLE OF DOPPLERS + POSITIONS OF PRNS ! !
-% MATLABs suggested debugging-related code. unnecessary due to graph.
-fprintf('PRN   Doppler (Hz)   Code position   Ratios\n');
-fprintf('%3d   %12.0f   %13d   %3.2f\n', [detectedPrns; dopplers(detectedPrns); positions(detectedPrns); ratios(detectedPrns)]);
+fprintf('PRN   Doppler (Hz)      Code Phase     Ratios\n');
+fprintf('%3d   %12.0f   %13d   %8.2f\n', [detectedPrns; dopplers(detectedPrns); positions(detectedPrns); ratios(detectedPrns)]);
